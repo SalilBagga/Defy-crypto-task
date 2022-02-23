@@ -12,7 +12,7 @@ export default function Coin({ Svg, coinname, based, pricePercentChange, price, 
       <h1 className="flex flex-col text-left ml-6">
         Price:
         <span className={`${pricePercentChange > 0 ? 'text-green-500' : 'text-red-500'} `}>
-          {price}
+            ₹ {price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ',')}
         </span>
       </h1>
     </div>
