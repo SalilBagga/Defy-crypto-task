@@ -33,6 +33,11 @@ module.exports = {
           900: 'hsla(190, 81%, 20%, 1)',
         },
         'gray-darker': '#504747',
+        'defy-purple': '#7F28C4',
+        'defy-via': '#2841C4',
+        'defy-g2': '#0F0F0F',
+        'defy-light': '#777777',
+        'defy-grey': '#2e2e2e',
       },
       spacing: {
         7.5: '1.875rem', // 30px
@@ -67,6 +72,7 @@ module.exports = {
         serif: ['Source Sans Pro', 'sans-serif'],
         inconsolata: ['Inconsolata'],
         source: ['source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
+        defy: ['Inter', 'sans-serif'],
       },
       minWidth: {
         site: '18.75rem',
@@ -120,6 +126,7 @@ module.exports = {
         16: '4rem',
         24: '6rem',
         32: '8rem',
+        screen: '100vh',
       },
       borderWidth: {
         1: '1px',
