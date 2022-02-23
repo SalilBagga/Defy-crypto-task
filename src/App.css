@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.grad-bg {
+  background: rgb(127, 40, 196);
+  background: linear-gradient(
+    180deg,
+    rgba(127, 40, 196, 1) 0%,
+    rgba(40, 31, 80, 1) 15%,
+    rgba(15, 15, 15, 1) 30%
+  );
+}
+@media (min-width: 768px) {
+  .grad-bg {
+    background: rgb(127, 40, 196);
+    background: linear-gradient(
+      180deg,
+      rgba(127, 40, 196, 1) 0%,
+      rgba(40, 31, 80, 1) 25%,
+      rgba(15, 15, 15, 1) 50%
+    );
+  }
+}

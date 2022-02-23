@@ -1,5 +1,10 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./fonts/Dongle-Regular.ttf) format('ttf');
+}
+
 @tailwind utilities;
 
 body {
