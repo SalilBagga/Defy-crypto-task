@@ -5,7 +5,7 @@ import Coin from './Coin';
 export default function IdeaCoins({ object }) {
   return (
     <div className="min-h-[50vh] pt-4 md:border-b-1 border-black  ">
-      <div className="pb-4 text-left  md:pt-2">
+      <div className="pb-4 text-left  md:pt-2 pb-2">
         <h1 className="pl-6">Ideal for new investors</h1>
       </div>
       <div>
